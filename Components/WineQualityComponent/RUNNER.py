@@ -1,5 +1,4 @@
 __author__ = "lalitdutt parsai"
-
 import os
 import json
 import pandas as pd
@@ -28,7 +27,7 @@ def runner(url,experiment_name,training_data_location,alpha,l1_ratio,test_data_l
         mlflow.sklearn.log_model(result["model"], "model")
         active_run=mlflow.active_run()
         run_id = active_run.info.run_id
-        model_location="mlruns/1/"+run_id+"/artifacts/model/model.pkl"
+        model_location="mlruns/0/"+run_id+"/artifacts/model/model.pkl"
         test_data=pd.read_csv(test_data_location, sep=',')
         client=Client(model_location)
         data=client.score(test_data)
