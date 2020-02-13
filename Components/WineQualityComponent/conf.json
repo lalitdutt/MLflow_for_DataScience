@@ -1,0 +1,8 @@
+{
+  "experiment_name": "WineQualityPrediction",
+  "default_alpha": 0.5,
+  "default_l1_ratio":0.5,
+  "default_training_data":"src/data/train.csv",
+  "default_test_data": "src/data/test.csv"
+}
+

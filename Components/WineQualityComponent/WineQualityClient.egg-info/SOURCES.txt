@@ -1,0 +1,7 @@
+WineQualityClient.egg-info/PKG-INFO
+WineQualityClient.egg-info/SOURCES.txt
+WineQualityClient.egg-info/dependency_links.txt
+WineQualityClient.egg-info/requires.txt
+WineQualityClient.egg-info/top_level.txt
+src/WineQualityClient/Client.py
+src/WineQualityClient/__init__.py
