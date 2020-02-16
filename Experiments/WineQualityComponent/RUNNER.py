@@ -3,8 +3,8 @@ import os
 import json
 import pandas as pd
 import mlflow.sklearn
-from Components.WineQualityComponent.src.WineQualityModel.WineQualityTraining import WineQualityModel
-from Components.WineQualityComponent.src.WineQualityClient.Client import Client
+from Experiments.WineQualityComponent.src.WineQualityModel.WineQualityTraining import WineQualityModel
+from Experiments.WineQualityComponent.src.WineQualityClient.Client import Client
 import logging
 logging.basicConfig(level=logging.INFO)
 
