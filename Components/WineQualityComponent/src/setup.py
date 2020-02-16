@@ -1,7 +1,6 @@
 __author__ = "lalitdutt parsai"
 from setuptools import setup,find_packages
 packages = ['src/WineQualityClient']
-print(packages)
 setup(
     name="WineQualityClient",
     version="0.0.1",
