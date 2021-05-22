@@ -5,7 +5,7 @@ setup(
     name="WineQualityClient",
     version="0.0.1",
     author="lalitdutt parsai",
-    author_email="lalitdutt.parsai@clustr.co.in",
+    author_email="lalitparsai@gmail.com",
     description="WineQuality Prediction ",
     long_description="WineQualityClient...",
     long_description_content_type="text/markdown",
